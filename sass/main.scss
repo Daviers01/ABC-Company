@@ -1,0 +1,60 @@
+@import "compass";
+@import "libs/fonts";
+@import "libs/globals";
+@import "libs/mixins";
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #FFF;
+	font-family: "PFDinDisplayPro-Bold", $open;
+	font-size: 18px; 
+	color: #444;
+	@media #{$medium-down}{
+		font-size: 18px;
+	}
+	@media #{$small-only}{
+		font-size: 16px;
+	}
+	p {
+		font-family: "PFDinDisplayPro-Light", $open;
+		font-weight: 100;
+	}
+	a, a:hover, a:focus, a:active{
+		outline: none;
+		text-decoration: none;
+	}
+	::selection {
+		background-color: #1a3767;
+		color: #fff;
+	}
+}
+
+
+.container{
+	
+	.row.no-gutters{
+		margin-left: 0px;
+		margin-right: 0px;
+		[class*="col-"]{
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+	}
+	.row.match-cols {
+		overflow: hidden; 
+		[class*="col-"]{
+			margin-bottom: -99999px;
+			padding-bottom: 99999px;
+		}
+	}
+	img{
+		max-width: 100%;
+	}
+}
+
+
+
+@import "modules/pages";

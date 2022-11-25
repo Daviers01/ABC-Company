@@ -1,0 +1,14 @@
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 400; src: url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-400.eot?yocs=_&yoloc=us"); src: local("Open Sans"), local("Open Sans"), url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-400.eot?yocs=_&yoloc=us") format("embedded-opentype"), url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-400.woff?yocs=_&yoloc=us") format("woff"); }
+@font-face { font-family: 'Open Sans'; font-style: normal; font-weight: 600; src: url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-700.eot?yocs=_&yoloc=us"); src: local("Open Sans"), local("Open Sans"), url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-700.eot?yocs=_&yoloc=us") format("embedded-opentype"), url("http://cdn-us-ec.yottaa.net/514ca26f86305e53b20000a5/e075d2b09a7d0130eacf12313d08f98b.yottaa.net/v~13.7a0/fejt-assets/cache/pcm/fonts/Open-Sans-700.woff?yocs=_&yoloc=us") format("woff"); }
+body { font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif; background-color: #e9e9e9; font-size: 16px; }
+.container { padding: 0; }
+.container-fluid { padding: 0; }
+.row.no-gutters { margin-right: 0; margin-left: 0; }
+.row.no-gutters > [class^="col-"], .row.no-gutters > [class*=" col-"] { padding-right: 0; padding-left: 0; }
+.clear-both { clear: both; }
+@media (min-width: 1200px) { .container { width: 980px; } }
+@media (max-width: 767px) { .container { padding-left: 10px !important; padding-right: 10px !important; } }
+html, body{ -webkit-overflow-scrolling: touch;
+}
+#sp_swfcontainer, #sp_slcontainer{ display: none;
+}
