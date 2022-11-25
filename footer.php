@@ -7,19 +7,19 @@
 						<div class="col-xs-12 col-md-6">
 							<ul class="footer-links page-items">
 								<li class="<?php echo ($page == "solution" ? "link-item active" : "link-item")?>">
-									<a class="link" href="solutions">Solutions</a>
+									<a class="link" href="solutions.php">Solutions</a>
 								</li>
 								<li class="<?php echo ($page == "brand" ? "link-item active" : "link-item")?>">
-									<a class="link" href="our-brand">Our Brand</a>
+									<a class="link" href="our-brand.php">Our Brand</a>
 								</li>
 								<li class="<?php echo ($page == "who-we-are" ? "link-item active" : "link-item")?>">
-									<a class="link" href="who-we-are">Who We Are</a>
+									<a class="link" href="who-we-are.php">Who We Are</a>
 								</li>
 								<li class="<?php echo ($page == "contact" ? "link-item active" : "link-item")?>">
-									<a class="link" href="contact">Contact Us</a>
+									<a class="link" href="contact.php">Contact Us</a>
 								</li>
 								<li class="<?php echo ($page == "terms-and-conditions" ? "link-item active" : "link-item")?>">
-									<a class="link" href="terms-and-conditions/">Terms and Conditions</a>
+									<a class="link" href="">Terms and Conditions</a>
 								</li>
 							</ul>
 						</div>

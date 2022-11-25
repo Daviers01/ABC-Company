@@ -15,16 +15,16 @@
 		<div id="navbar" class="navbar-collapse collapse">
 			<ul class="navbar-nav">
 				<li class="<?php echo ($page == "solution" ? "nav-item active" : "nav-item")?>">
-					<a class="nav-link" href="solutions"><span data-letters="Solutions">Solutions</span></a>
+					<a class="nav-link" href="solutions.php"><span data-letters="Solutions">Solutions</span></a>
 				</li>
 				<li class="<?php echo ($page == "brand" ? "nav-item active" : "nav-item")?>">
-					<a class="nav-link" href="our-brand"><span data-letters="Our Brand">Our Brand</span></a>
+					<a class="nav-link" href="our-brand.php"><span data-letters="Our Brand">Our Brand</span></a>
 				</li>
 				<li class="<?php echo ($page == "who-we-are" ? "nav-item active" : "nav-item")?>">
-					<a class="nav-link" href="who-we-are"><span data-letters="Who We Are">Who We Are</span></a>
+					<a class="nav-link" href="who-we-are.php"><span data-letters="Who We Are">Who We Are</span></a>
 				</li>
 				<li class="<?php echo ($page == "contact" ? "nav-item active" : "nav-item")?>">
-					<a class="nav-link" href="contact"><span data-letters="Contact Us">Contact Us</span></a>
+					<a class="nav-link" href="contact.php"><span data-letters="Contact Us">Contact Us</span></a>
 				</li>
 			</ul>
 		</div>
